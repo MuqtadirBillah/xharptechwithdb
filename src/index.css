@@ -1,0 +1,2508 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@font-face {
+  font-family: "Futura Light Font";
+  src: local("Futura"), url("./fonts/FuturaLightFont.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Futura Heavy Font";
+  src: local("Futura"), url("./fonts/FuturaHeavyFont.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Futura Bold Font";
+  src: local("Futura"), url("./fonts/FuturaBoldFont.ttf") format("truetype");
+  font-weight: bold;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: larger;
+  font-size: 20px;
+}
+body input:focus, body select:focus, body button:focus, body textArea:focus {
+  outline: none !important;
+}
+body .sectionMainHeading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+}
+body .navigation {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+body .navigation .navbar {
+  background-color: #D0EFFB;
+  border-bottom: 2px solid #00C2FF;
+  height: 80px;
+}
+body .navigation .navbar .container-fluid {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+body .navigation .navbar .container-fluid .navbar-brand img {
+  height: 35px;
+}
+body .navigation .navbar .container-fluid .navbar-toggler:focus {
+  border-color: rgba(0, 0, 0, 0) !important;
+}
+body .navigation .navbar .container-fluid .navbar-collapse ul {
+  margin: auto;
+}
+body .navigation .navbar .container-fluid .navbar-collapse ul li {
+  font-size: medium;
+  padding: 5px 10px;
+}
+body .navigation .navbar .container-fluid .navbar-collapse ul li a {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+body .navigation .navbar .container-fluid .navbar-collapse ul li a:hover {
+  color: #00C2FF;
+}
+body .navigation .navbar .container-fluid .navbar-collapse ul li .activee {
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #00C2FF;
+}
+body .navigation .navbar .container-fluid .navbar-collapse ul li .activee:hover {
+  color: #00C2FF;
+}
+body .navigation .navbar .container-fluid .navbar-collapse .contactButNav {
+  background-color: #00C2FF;
+  color: white;
+  padding: 5px 30px;
+  border-radius: 3px;
+  border: 1px solid #00C2FF;
+  font-size: medium;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600 !important;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+}
+body .navigation .navbar .container-fluid .navbar-collapse .contactButNav:hover {
+  color: #00C2FF;
+  background-color: rgba(0, 0, 0, 0);
+}
+body .hero {
+  padding-top: 140px;
+  background-color: #ECFAFF;
+}
+body .hero .carousel {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 50px;
+}
+body .hero .carousel .carousel-inner .carousel-item {
+  min-height: 400px;
+}
+body .hero .carousel .carousel-inner .carousel-item .slide .container .row .left h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+body .hero .carousel .carousel-inner .carousel-item .slide .container .row .left .highText {
+  color: #00C2FF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+}
+body .hero .carousel .carousel-inner .carousel-item .slide .container .row .left button {
+  background-color: #00C2FF;
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-weight: 600;
+  font-size: x-large;
+  color: white;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+}
+body .hero .carousel .carousel-inner .carousel-item .slide .container .row .left button:hover {
+  background-color: white;
+  border: 2px solid #00C2FF;
+  color: #00C2FF;
+}
+body .hero .carousel .carousel-inner .carousel-item .slide .container .row .right {
+  text-align: center;
+}
+body .hero .carousel .carousel-inner .carousel-item .slide .container .row .right img {
+  width: 80%;
+}
+body .heroCompanies {
+  background-color: #000000;
+  padding: 25px 20px;
+  text-align: center;
+}
+body .services {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+body .services h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #00C2FF;
+}
+body .services .sectionMainHeading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+}
+body .services .servicesCards {
+  padding: 50px 0px;
+  padding-top: 70px;
+  padding-bottom: 0;
+}
+body .services .servicesCards .container .row .serviceCard {
+  padding: 10px 20px;
+  padding-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: -5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+}
+body .services .servicesCards .container .row .serviceCard .cardHeader img {
+  width: 50%;
+}
+body .services .servicesCards .container .row .serviceCard .cardBody h4 {
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+}
+body .services .servicesCards .container .row .serviceCard .cardBody h5 {
+  font-weight: 400;
+  font-size: medium;
+}
+body .services .servicesCards .container .row .serviceCard .cardBody h3 i {
+  color: rgba(0, 0, 0, 0);
+}
+body .services .servicesCards .container .row .serviceCard .cardBody p a {
+  text-decoration: none;
+  color: #00C2FF;
+}
+body .services .servicesCards .container .row .serviceCard .cardBody p a i {
+  margin-left: 5px;
+}
+body .services .servicesCards .container .row .serviceCard:hover {
+  background-color: #DEEDF2;
+}
+body .services .servicesCards .container .row .serviceCard:hover .cardBody h3 i {
+  color: black;
+}
+body .servicess {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+body .servicess h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #00C2FF;
+}
+body .servicess .sectionMainHeading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+}
+body .servicess .servicesCards {
+  padding: 50px 0px;
+  padding-top: 70px;
+  padding-bottom: 0;
+}
+body .servicess .servicesCards .container .row .serviceCard {
+  padding: 10px 20px;
+  padding-top: 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  border-top: 7px solid #00C2FF;
+  background-color: #DEEDF2;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+}
+body .servicess .servicesCards .container .row .serviceCard .cardHeader img {
+  width: 50%;
+}
+body .servicess .servicesCards .container .row .serviceCard .cardBody h4 {
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+}
+body .servicess .servicesCards .container .row .serviceCard .cardBody h5 {
+  font-weight: 400;
+  font-size: medium;
+}
+body .servicess .servicesCards .container .row .serviceCard .cardBody h3 i {
+  color: rgba(0, 0, 0, 0);
+}
+body .servicess .servicesCards .container .row .serviceCard .cardBody p a {
+  text-decoration: none;
+  color: #00C2FF;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+}
+body .servicess .servicesCards .container .row .serviceCard .cardBody p a i {
+  margin-left: 5px;
+}
+body .servicess .servicesCards .container .row .serviceCard .cardBody p a:hover {
+  color: black;
+  font-weight: 500;
+}
+body .servicess .servicesCards .container .row .serviceCard:hover {
+  background-color: #DEE7FF;
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.4);
+}
+body .servicess .servicesCards .container .row .serviceCard:hover .cardBody h3 i {
+  color: black;
+}
+body .testimonials {
+  padding: 50px 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 50px;
+}
+body .testimonials .slick-arrow {
+  display: none !important;
+}
+body .testimonials h5 {
+  font-weight: 700;
+  color: white;
+}
+body .testimonials .sectionMainHeading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 50px;
+  font-weight: 800;
+  color: white;
+}
+body .testimonials .testimonial {
+  padding: 10px;
+}
+body .testimonials .testimonial .container-fluid {
+  border: 1px solid rgba(72, 72, 72, 0.3);
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+body .testimonials .testimonial .container-fluid .row .right {
+  padding: 0px 15px;
+}
+body .testimonials .testimonial video {
+  width: 100%;
+  border-radius: 20px;
+  min-height: 100%;
+}
+body .testimonials .testimonial .great {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+body .testimonials .testimonial .great img {
+  width: 40%;
+  transform: rotate(-5deg);
+}
+body .testimonials .testimonial h4 {
+  font-weight: 400;
+}
+body .testimonials .testimonial .userInfo {
+  margin-top: 30px;
+}
+body .testimonials .testimonial .userInfo .line1 {
+  font-size: x-large;
+  font-family: Futura Bold Font;
+}
+body .testimonials .testimonial .userInfo .line1 i {
+  color: #00C2FF;
+  transform: scaleX(-1);
+}
+body .testimonials .testimonial .userInfo .line2 p {
+  font-size: large;
+  margin-top: 5px;
+  font-weight: 500;
+}
+body .testimonialsUpdated {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+body .testimonialsUpdated .updatedSectionMainHeading {
+  color: #00C2FF;
+  font-family: "Montserrat", sans-serif;
+  text-align: center !important;
+}
+body .testimonialsUpdated .whatHeading {
+  position: relative;
+  text-align: center;
+}
+body .testimonialsUpdated .whatHeading h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: xxx-large;
+}
+body .testimonialsUpdated .whatHeading .whatRight {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 80px;
+  text-align: right;
+  width: auto;
+}
+body .testimonialsUpdated .whatHeading .whatRight .sliderControlBut {
+  border: 0;
+  color: #00C2FF;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: xx-large;
+  font-family: Futura Bold Font;
+  transition: background-color 0.5s ease-out;
+}
+body .testimonialsUpdated .whatHeading .whatRightPhone {
+  display: none;
+}
+body .testimonialsUpdated .whatHeading .whatRightPhone .sliderControlBut {
+  border: 0;
+  color: #00C2FF;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: xx-large;
+  font-family: Futura Bold Font;
+  transition: background-color 0.5s ease-out;
+}
+body .testimonialsUpdated .reviews {
+  margin-top: 30px;
+}
+body .testimonialsUpdated .reviews .singleCard .reviewCard {
+  background-color: #E4F8FF;
+  min-height: 400px;
+  padding: 20px 40px;
+  margin: 40px;
+  margin-left: 0;
+}
+body .testimonialsUpdated .reviews .singleCard .reviewCard .rating .ratingNo {
+  font-size: larger;
+  margin-right: 10px;
+  font-family: Futura Bold Font;
+}
+body .testimonialsUpdated .reviews .singleCard .reviewCard .rating .filled {
+  color: #FFBB55;
+}
+body .testimonialsUpdated .reviews .singleCard .reviewCard .comments p {
+  font-size: large;
+  color: #887E7E;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+body .testimonialsUpdated .reviews .singleCard .reviewCard .client img {
+  width: 100%;
+  border-radius: 50%;
+}
+body .testimonialsUpdated .reviews .singleCard .reviewCard .client h2 {
+  font-size: larger;
+}
+body .ourPortfolio {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #DEEDF2;
+}
+body .ourPortfolio .updatedSectionMainHeading {
+  color: #00C2FF;
+  font-family: Futura Heavy Font;
+}
+body .ourPortfolio .ourHeading {
+  text-align: center;
+  position: relative;
+}
+body .ourPortfolio .ourHeading .updatedSectionMainHeading {
+  font-weight: 800;
+}
+body .ourPortfolio .ourHeading h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+body .ourPortfolio .ourHeading .ourRight {
+  position: absolute;
+  right: 0;
+  width: auto;
+}
+body .ourPortfolio .ourHeading .ourRight button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #00C2FF;
+  border-radius: 5px;
+  color: #00C2FF;
+  font-size: large;
+  font-family: Futura Bold Font;
+  padding: 10px 40px;
+  transition: background-color 0.5s ease-out;
+}
+body .ourPortfolio .ourHeading .ourRight button:hover {
+  color: white;
+  background-color: #00C2FF;
+}
+body .ourPortfolio .tiless {
+  margin-top: 50px;
+}
+body .ourPortfolio .tiless img {
+  width: 100%;
+}
+body .ourPortfolio .tiless img:hover {
+  filter: contrast(1.1);
+  cursor: pointer;
+}
+body .ourPortfolio .tiless h3 {
+  margin-top: 20px;
+  font-weight: 700;
+}
+body .ourPortfolio .tiless h3:hover {
+  color: #00C2FF;
+}
+body .ourPortfolio .tiless p {
+  font-size: large;
+}
+body .ourPortfolioPage {
+  padding-bottom: 50px;
+  padding-top: 0 !important;
+  background-color: white;
+}
+body .ourPortfolioPage .portfolioHero {
+  padding-top: 80px;
+}
+body .ourPortfolioPage .portfolioHero .updatedSectionMainHeading {
+  text-align: left;
+}
+body .ourPortfolioPage .updatedSectionMainHeading {
+  color: #00C2FF;
+  font-family: Futura Heavy Font;
+  text-align: center;
+  margin-top: 80px;
+}
+body .ourPortfolioPage .ourHeading {
+  text-align: center;
+  margin-bottom: 50PX;
+}
+body .ourPortfolioPage .ourHeading h1 {
+  font-family: Futura Light Font;
+  font-size: 3.5rem;
+}
+body .ourPortfolioPage .tiless {
+  margin-top: 0px;
+}
+body .ourPortfolioPage .tiless .row {
+  margin-bottom: 30px;
+}
+body .ourPortfolioPage .tiless .row img {
+  width: 100%;
+}
+body .ourPortfolioPage .tiless .row img:hover {
+  filter: contrast(1.1);
+  cursor: pointer;
+}
+body .ourPortfolioPage .tiless .row h3 {
+  margin-top: 20px;
+  font-family: Futura Bold Font;
+}
+body .ourPortfolioPage .tiless .row h3:hover {
+  color: #00C2FF;
+}
+body .aboutPage .updatedSectionMainHeading {
+  color: #00C2FF;
+  font-family: Futura Heavy Font;
+  text-align: left;
+  margin-top: 10px;
+}
+body .aboutPage .aboutInfo {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+body .aboutPage .aboutInfo h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+body .aboutPage .aboutInfo .imageDiv img {
+  width: 100%;
+}
+body .aboutPage .aboutInfo .text .updatedSectionMainHeading {
+  margin-top: 20px !important;
+}
+body .aboutHero {
+  padding-top: 100px !important;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ECFAFF;
+}
+body .aboutHero .carousel {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 80px;
+}
+body .aboutHero .carousel .carousel-inner .carousel-item .slide .container .row .left .updatedSectionMainHeading {
+  text-align: left !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 700;
+  color: #00C2FF;
+}
+body .aboutHero .carousel .carousel-inner .carousel-item .slide .container .row .left h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+body .aboutHero .carousel .carousel-inner .carousel-item .slide .container .row .left .highText {
+  color: #00C2FF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+}
+body .aboutHero .carousel .carousel-inner .carousel-item .slide .container .row .left p {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: larger !important;
+}
+body .aboutHero .carousel .carousel-inner .carousel-item .slide .container .row .left button {
+  background-color: #00C2FF;
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-weight: 600;
+  font-size: x-large;
+  margin-top: 20px;
+  color: white;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+}
+body .aboutHero .carousel .carousel-inner .carousel-item .slide .container .row .left button:hover {
+  background-color: white;
+  border: 2px solid #00C2FF;
+  color: #00C2FF;
+}
+body .aboutHero .carousel .carousel-inner .carousel-item .slide .container .row .right {
+  text-align: center;
+}
+body .aboutHero .carousel .carousel-inner .carousel-item .slide .container .row .right img {
+  width: 80% !important;
+}
+body .aboutHero {
+  padding-top: 0px;
+  background-color: #ECFAFF;
+}
+body .aboutHero .carousel {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 80px;
+}
+body .aboutHero .carousel .carousel-inner .carousel-item .slide .container .row .left .updatedSectionMainHeading {
+  text-align: left !important;
+}
+body .aboutHero .carousel .carousel-inner .carousel-item .slide .container .row .left h1 {
+  margin-bottom: 20px;
+  font-size: 60px;
+  font-family: Futura light Font;
+}
+body .aboutHero .carousel .carousel-inner .carousel-item .slide .container .row .left .highText {
+  color: #00C2FF;
+  font-family: Futura Bold Font;
+  font-size: 70px;
+}
+body .aboutHero .carousel .carousel-inner .carousel-item .slide .container .row .left button {
+  background-color: #00C2FF;
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-weight: 600;
+  font-size: x-large;
+  margin-top: 20px;
+  color: white;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+}
+body .aboutHero .carousel .carousel-inner .carousel-item .slide .container .row .left button:hover {
+  background-color: white;
+  border: 2px solid #00C2FF;
+  color: #00C2FF;
+}
+body .aboutHero .carousel .carousel-inner .carousel-item .slide .container .row .right {
+  text-align: center;
+}
+body .aboutHero .carousel .carousel-inner .carousel-item .slide .container .row .right img {
+  width: 50%;
+}
+body .becomeBanner {
+  background-color: #00C2FF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+body .becomeBanner .left h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+body .becomeBanner .right {
+  text-align: center;
+}
+body .becomeBanner .right h2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+body .becomeBanner .right h4 {
+  font-size: 20px;
+  font-weight: 700;
+  font-size: medium;
+}
+body .aboutBanner {
+  background-color: #00C2FF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+body .aboutBanner .left h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+body .aboutBanner .right {
+  text-align: center;
+}
+body .aboutBanner .right h2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+body .aboutBanner .right h4 {
+  font-size: 20px;
+  font-weight: 700;
+  font-size: medium;
+}
+body .hot {
+  padding: 50px 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+body .hot h5 {
+  font-weight: 700;
+}
+body .hot .h1Num {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: Futura Heavy Font;
+}
+body .hot .sectionMainHeading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-family: Futura Heavy Font;
+  font-weight: 800;
+}
+body .hot .stats {
+  text-align: center;
+  background-color: black;
+  padding: 50px 30px;
+  color: white;
+  position: relative;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+body .hot .stats .tick {
+  position: absolute;
+  top: -30%;
+  right: 50px;
+}
+body .hot .stats .tick img {
+  width: 80%;
+}
+body .achievements {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+body .achievements .leftMain {
+  padding: 30px;
+  padding-left: 0;
+}
+body .achievements .leftMain img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+body .achievements .rightMain {
+  padding: 30px;
+  padding: 30px 10px;
+}
+body .achievements .rightMain .sectionMainHeading {
+  font-size: xx-large;
+  color: #00C2FF;
+}
+body .achievements .rightMain h3 {
+  font-size: x-large;
+}
+body .achievements .rightMain .container-fluid {
+  margin-top: 40px;
+}
+body .achievements .rightMain .container-fluid .row {
+  margin-top: 30px;
+}
+body .achievements .rightMain .container-fluid .row .left {
+  text-align: center;
+}
+body .achievements .rightMain .container-fluid .row .left img {
+  width: 100%;
+}
+body .achievements .rightMain .container-fluid .row .right h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500 !important;
+}
+body .work {
+  padding: 50px 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top: 30px;
+}
+body .work .slick-arrow {
+  display: none !important;
+}
+body .work .sectionMainHeading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+}
+body .work .slider {
+  margin-top: 50px;
+}
+body .work .slider .swipe {
+  text-align: center;
+  font-size: large;
+  margin-top: 25px;
+}
+body .work .slider .swipe .fa-angle-double-left {
+  margin-right: 10px;
+  -webkit-animation: move 3s infinite;
+          animation: move 3s infinite;
+}
+body .work .slider .swipe .fa-angle-double-right {
+  margin-left: 10px;
+}
+body .work .slider div .singleWork {
+  margin: 5px 5px;
+  padding: 30px 20px;
+  min-height: 550px;
+  position: relative;
+  color: white;
+}
+body .work .slider div .singleWork .no {
+  font-size: x-large;
+  font-weight: 700;
+}
+body .work .slider div .singleWork .credit {
+  position: absolute;
+  bottom: 10px;
+}
+body .work .slider div .singleWork .credit button {
+  display: none;
+  background-color: #FFF;
+  border: 0;
+  padding: 5px 10px;
+  font-size: large;
+  transition: background-color 0.5s ease-out;
+}
+body .work .slider div .singleWork .credit button:hover {
+  background-color: #00C2FF;
+  color: white;
+}
+body .work .slider div .singleWork:hover {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  filter: contrast(1.2);
+}
+body .work .slider div .singleWork:hover .credit {
+  transition: 0.6s ease;
+  position: absolute;
+  bottom: 10px;
+}
+body .work .slider div .singleWork:hover .credit button {
+  display: block;
+}
+body .contact {
+  padding: 50px 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+body .contact h5 {
+  font-weight: 700;
+}
+body .contact .sectionMainHeading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 50px;
+  font-weight: 800;
+}
+body .contact .container-fluid .row .coll {
+  padding-left: 0px;
+}
+body .contact .container-fluid .banner {
+  padding: 0 !important;
+  background-color: black;
+  border-radius: 20px;
+  padding-bottom: 30px;
+}
+body .contact .container-fluid .banner .left {
+  padding: 30px;
+  color: white;
+  padding-left: 50px;
+  font-size: xx-large;
+}
+body .contact .container-fluid .banner .left h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+body .contact .container-fluid .banner .left hr {
+  width: 50%;
+}
+body .contact .container-fluid .banner .left button {
+  font-size: large;
+  padding: 15px 30px;
+  background-color: #000000;
+  border: 2px solid white;
+  border-radius: 50px;
+  color: white;
+  transition: background-color 0.5s ease-out;
+}
+body .contact .container-fluid .banner .left button i {
+  margin-right: 10px;
+}
+body .contact .container-fluid .banner .left button:hover {
+  background-color: white;
+  color: black;
+}
+body .contact .container-fluid .banner .right {
+  padding: 0 !important;
+}
+body .contact .container-fluid .banner .right img {
+  width: 100%;
+  text-align: right;
+}
+body .contactEmail {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+body .contactEmail .container .row .left {
+  text-align: center !important;
+}
+body .contactEmail .container .row .left img {
+  max-width: 60%;
+}
+body .contactEmail .container .row .right h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+body .contactEmail .container .row .right h2 {
+  font-size: xx-large;
+  margin-top: 30px;
+}
+body .contactEmail .container .row .right h4 {
+  margin-top: 25px;
+}
+body .contactEmail .container .row .right .emailInput {
+  width: 100%;
+  position: relative;
+  padding: 5px;
+  border: 1px solid rgba(61, 61, 61, 0.4);
+  border-radius: 50px;
+  display: inline-block;
+  margin-top: 20px;
+}
+body .contactEmail .container .row .right .emailInput input {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  padding: 5px 25px;
+  width: 80%;
+}
+body .contactEmail .container .row .right .emailInput button {
+  background-color: #00C2FF;
+  position: absolute;
+  right: 0;
+  bottom: 2px;
+  right: 2px;
+  padding: 5px 40px;
+  border: 0;
+  border-radius: 50px;
+  color: white;
+  font-size: larger;
+  margin-left: 50px;
+  width: 20%;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+}
+body .contactEmail .container .row .right .emailInput button:hover {
+  background-color: #00C2FF;
+  color: white;
+}
+body .footer {
+  padding: 20px 70px;
+  padding-bottom: 0px;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: #DEEDF2;
+}
+body .footer .container-fluid .row h3 {
+  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+}
+body .footer .container-fluid .row .left {
+  margin-bottom: 20px;
+}
+body .footer .container-fluid .row .left img {
+  height: 50px;
+}
+body .footer .container-fluid .row .left p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin-top: 40px;
+}
+body .footer .container-fluid .row .left h5 span {
+  background-color: black;
+  color: white;
+  margin-right: 8px;
+  padding: 10px;
+  border-radius: 20px;
+}
+body .footer .container-fluid .row .mid {
+  margin-bottom: 20px;
+}
+body .footer .container-fluid .row .right {
+  margin-bottom: 20px;
+}
+body .footer .container-fluid .row .right h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+body .footer .container-fluid .row .right input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #74DEFF;
+  border: 0;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: white;
+}
+body .footer .container-fluid .row .right button {
+  background-color: #00C2FF;
+  padding: 5px 20px;
+  border: 2px solid #00C2FF;
+  border-radius: 5px;
+  color: white;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+}
+body .footer .container-fluid .row .right button:hover {
+  background-color: white;
+  color: #00C2FF;
+}
+body .footer .container-fluid .bottom hr {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+body .footer .container-fluid .bottom .left h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+body .footer .container-fluid .bottom .right {
+  text-align: right;
+}
+body .footer .container-fluid .bottom .right ul {
+  list-style: none;
+}
+body .footer .container-fluid .bottom .right ul li {
+  display: inline;
+  margin-right: 20px;
+}
+body .footer .container-fluid .bottom .right ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-size: medium;
+}
+body .footer .container-fluid .bottom .right ul li a:hover {
+  color: #00C2FF;
+}
+body .ourServices {
+  padding-top: 80px;
+}
+body .ourServices .banner {
+  padding: 100px 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+body .ourServices .banner .container-fluid .row h1 {
+  font-size: 3.5rem;
+  font-family: Futura Bold Font;
+  color: white;
+}
+body .servicesPageUpdated .mainContent {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+body .servicesPageUpdated .mainContent .updatedSectionMainHeading {
+  color: #00C2FF;
+  font-weight: 700;
+  text-align: center !important;
+}
+body .servicesPageUpdated .mainContent h1 {
+  font-family: "Montserrat", sans-serif;
+}
+body .servicesPageUpdated .mainContent .services hr {
+  background-color: #00C2FF;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+body .servicesPageUpdated .mainContent .services .row .serviceImg {
+  text-align: center;
+}
+body .servicesPageUpdated .mainContent .services .row .serviceImg img {
+  height: 100%;
+  width: 100%;
+}
+body .servicesPageUpdated .mainContent .services .row .serviceText {
+  text-align: left;
+}
+body .servicesPageUpdated .mainContent .services .row .serviceText h2 {
+  font-family: "Montserrat", sans-serif;
+}
+body .servicesPageUpdated .mainContent .services .row .serviceText h5 {
+  font-size: x-large;
+}
+body .servicesPageUpdated .mainContent .services .row .serviceText ul {
+  font-size: xx-large;
+}
+body .servicesHero .carousel-inner .carousel-item .slide .container .row .left .highText {
+  color: #00C2FF;
+  font-size: xx-large !important;
+}
+body .servicesHero .carousel-inner .carousel-item .slide .container .row .left h1 {
+  font-size: 40px !important;
+}
+body .servicesHero .carousel-inner .carousel-item .slide .container .row .left p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300 !important;
+}
+body .servicesHero .carousel-inner .carousel-item .slide .container .row .left button {
+  margin-top: 20px;
+}
+body .servicesHero .carousel-inner .carousel-item .slide .container .row .right img {
+  width: 80% !important;
+}
+body .designProcess .headings {
+  padding: 50px 70px;
+  background-color: rgb(243, 243, 243);
+}
+body .designProcess .headings .sectionMainHeading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+}
+body .designProcess .processSteps .slick-arrow {
+  display: none !important;
+}
+body .designProcess .processSteps .container-fluid {
+  background-color: #000000;
+  max-width: 100%;
+  padding: 0px 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 50px;
+}
+body .designProcess .processSteps .container-fluid .row {
+  color: white;
+  padding: 0 !important;
+  width: 100%;
+}
+body .designProcess .processSteps .container-fluid .row .stepNo {
+  margin-bottom: 40px;
+}
+body .designProcess .processSteps .container-fluid .row .stepNo h2 {
+  background-color: white;
+  display: inline-block;
+  color: black;
+  padding: 25px 40px;
+  font-family: Futura Heavy Font;
+  font-size: medium;
+}
+body .designProcess .processSteps .container-fluid .row .left h1 {
+  font-family: Futura Bold Font;
+  font-size: 3rem;
+}
+body .designProcess .processSteps .container-fluid .row .left h4 {
+  color: #6f6f6f;
+}
+body .designProcess .processSteps .container-fluid .row .mid h1 {
+  font-family: Futura Bold Font;
+  font-size: 3rem;
+}
+body .designProcess .processSteps .container-fluid .row .mid ul {
+  color: #6f6f6f;
+}
+body .designProcess .processSteps .container-fluid .row .right {
+  text-align: center;
+}
+body .designProcess .processSteps .container-fluid .row .right img {
+  height: 300px;
+  max-width: 100%;
+}
+body .designProcess .processSteps .container-fluid .stepsCards {
+  margin-top: 50px;
+}
+body .designProcess .processSteps .container-fluid .stepsCards div .cardd {
+  padding: 5px;
+}
+body .designProcess .processSteps .container-fluid .stepsCards div .cardd .cardIn {
+  color: white;
+  text-align: center !important;
+  background-color: #1d1d1d;
+  border-radius: 15px;
+  padding-top: 20px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  font-family: Futura Bold Font;
+  min-height: 220px;
+}
+body .designProcess .processSteps .container-fluid .stepsCards div .cardd .cardIn h3 {
+  font-size: 1.5rem !important;
+}
+body .designProcess .processSteps .container-fluid .stepsCards div .cardd .cardIn img {
+  width: 40%;
+}
+body .designProcess .processSteps .container-fluid .stepsCards div .cardd .cardIn:hover {
+  background: rgb(42, 67, 248);
+  background: radial-gradient(circle, rgb(42, 67, 248) 0%, rgb(29, 29, 29) 91%);
+}
+body .designProcess .processSteps .container-fluid .stepsCards div .cardd .active {
+  background-color: #2a43f8 !important;
+  color: white;
+  text-align: center !important;
+  background-color: #1d1d1d;
+  border-radius: 15px;
+  padding-top: 20px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  font-family: Futura Bold Font;
+  min-height: 220px;
+}
+body .designProcess .processSteps .container-fluid .stepsCards div .cardd .active h3 {
+  font-size: 1.5rem !important;
+}
+body .designProcess .processSteps .container-fluid .stepsCards div .cardd .active img {
+  width: 40%;
+}
+body .designProcess .processSteps .container-fluid .stepsCards div .cardd .active:hover {
+  background-color: #2a43f8 !important;
+}
+body .designProcess .processSteps .container-fluid .stepsCards .swipe {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+body .serviceSection {
+  padding: 50px 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+body .serviceSection h5 {
+  font-weight: 700;
+}
+body .serviceSection .h1Num {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: Futura Heavy Font;
+}
+body .serviceSection .sectionMainHeading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-family: Futura Heavy Font;
+  font-weight: 800;
+}
+body .servicesMain {
+  margin-top: 100px;
+}
+body .servicesMain .container-fluid hr {
+  background-color: #00C2FF;
+  margin-bottom: 100px;
+}
+body .servicesMain .container-fluid .row .left-main img {
+  width: 80%;
+}
+body .servicesMain .container-fluid .row .right-main .serviceSingleHeading {
+  margin-top: 40px;
+}
+body .servicesMain .container-fluid .row .right-main p {
+  margin-bottom: 50px;
+}
+body .singleService .row {
+  border-top: 2px solid rgba(0, 0, 0, 0.6);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+body .singleService .row .mid {
+  text-align: right;
+}
+body .singleService .row .mid img {
+  height: 200px;
+  visibility: hidden;
+  max-width: 100%;
+}
+body .singleService .row .right {
+  text-align: right !important;
+}
+body .singleService .row .right h1 {
+  text-align: right;
+  width: 100%;
+}
+body .singleService .row .right h1 a {
+  color: black;
+}
+body .singleService .row:hover .left h2 {
+  color: #00C2FF;
+}
+body .singleService .row:hover .mid img {
+  visibility: visible !important;
+}
+body .singleService .row:hover .right h1 {
+  color: #00C2FF;
+}
+body .workPage {
+  padding-top: 40px;
+}
+body .workPage .banner {
+  padding: 100px 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+body .workPage .banner .container-fluid .row h1 {
+  font-size: 3.5rem;
+  color: white;
+}
+body .workPage .workMain {
+  padding: 50px 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+body .workPage .workMain h5 {
+  font-weight: 700;
+}
+body .workPage .workMain .sectionMainHeading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+}
+body .workPage .workMain .workShowcase .container-fluid .row {
+  padding: 0 !important;
+}
+body .workPage .workMain .workShowcase .container-fluid .row .coll {
+  padding: 0 !important;
+}
+body .workPage .workMain .workShowcase .container-fluid .row .coll .workCard {
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: white;
+}
+body .workPage .workMain .workShowcase .container-fluid .row .coll .workCard .cardHeader img {
+  width: 100%;
+  height: 350px;
+}
+body .workPage .workMain .workShowcase .container-fluid .row .coll .workCard .cardBody {
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+}
+body .workPage .workMain .workShowcase .container-fluid .row .coll .workCard .cardBody h2 {
+  margin-top: 20px;
+}
+body .workPage .workMain .workShowcase .container-fluid .row .coll .workCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.6);
+}
+body .workPage .workMain .workShowcase .container-fluid .row .coll .workCard:hover .cardHeader img {
+  filter: contrast(1.5);
+}
+body .workPage .workMain .workShowcase .container-fluid .row .coll .workCard:hover .cardBody {
+  padding: 10px 2%;
+}
+body .workPage .workMain .workShowcase .container-fluid .row .coll .workCard:hover .cardBody h2 {
+  margin-top: 20px;
+  color: #00C2FF;
+}
+body .about {
+  padding-top: 40px;
+}
+body .about .banner {
+  padding: 100px 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+body .about .banner h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: white;
+}
+body .about .aboutMain {
+  padding: 50px 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+body .about .aboutMain h5 {
+  font-weight: 700;
+}
+body .about .aboutMain .sectionMainHeading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+}
+body .about .aboutMain .container-fluid .row h3 {
+  margin-top: 40px;
+}
+body .about .aboutMain .container-fluid .parallaxRow {
+  margin-top: 50px;
+}
+body .about .aboutMain .container-fluid .parallaxRow .parallaxIn {
+  min-height: 300px;
+  color: white;
+  padding: 30px 20px;
+}
+body .about .aboutMain .container-fluid .parallaxRow .parallaxIn .sectionMainHeading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+}
+body .team .container-fluid {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+body .team .container-fluid .sectionMainHeading {
+  text-align: center;
+}
+body .team .container-fluid .in {
+  position: relative;
+}
+body .team .container-fluid .in .backShape {
+  position: absolute;
+  background-color: #00C2FF;
+  height: 100px;
+  width: 100%;
+  z-index: -10;
+}
+body .team .container-fluid .in .members {
+  padding-top: 80px;
+  background-color: white;
+}
+body .team .container-fluid .in .members .singleMember {
+  text-align: right;
+}
+body .team .container-fluid .in .members h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+body .team .container-fluid .in .members h5 {
+  font-family: "Montserrat", sans-serif;
+}
+body .team .container-fluid .in .members p {
+  font-size: small !important;
+}
+body .feedback {
+  padding: 60px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+body .feedback .container-fluid .feedbackRow {
+  margin-top: 50px;
+}
+body .feedback .container-fluid .feedbackRow h5 {
+  font-size: larger;
+}
+body .feedback .container-fluid .feedbackRow .info h5 {
+  margin-top: 40px;
+}
+body .feedback .container-fluid .feedbackRow .carouselControlClass .carouselControl {
+  background-color: #00C2FF !important;
+  border: 0;
+  margin-left: 10px;
+  padding: 10px 18px;
+  margin-bottom: 10px;
+}
+body .feedback .container-fluid .feedbackRow .carouselControlClass .carouselControl:hover {
+  color: white;
+}
+body .contactPage .containerForm {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+body .contactPage .containerForm .mainRow {
+  background-color: #F8FDFF;
+  border: 1px solid #635D5D;
+  border-radius: 30px;
+}
+body .contactPage .containerForm .mainRow .left {
+  padding: 5%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+body .contactPage .containerForm .mainRow .left .container .contactForm h1 {
+  font-family: "Montserrat", sans-serif;
+}
+body .contactPage .containerForm .mainRow .left .container .contactForm .innerForm {
+  padding-top: 50px;
+}
+body .contactPage .containerForm .mainRow .left .container .contactForm .innerForm input {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  padding: 10px 25px;
+  border: 0;
+}
+body .contactPage .containerForm .mainRow .left .container .contactForm .innerForm textArea {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  padding: 20px 25px;
+  border: 0;
+}
+body .contactPage .containerForm .mainRow .left .container .contactForm .innerForm .warning {
+  color: red;
+  margin-bottom: 20px;
+}
+body .contactPage .containerForm .mainRow .left .container .contactForm .innerForm button {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 15px 10px;
+  border: 0;
+  background-color: #00C2FF;
+  border: 2px solid #00C2FF;
+  font-size: large;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+}
+body .contactPage .containerForm .mainRow .left .container .contactForm .innerForm button:hover {
+  background-color: white;
+  border-color: #00C2FF;
+  color: #00C2FF;
+}
+body .contactPage .containerForm .mainRow .left .container .contactForm .innerForm img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+body .contactPage .containerForm .mainRow .right {
+  border-left: 1px solid #635D5D;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+body .contactPage .containerForm .mainRow .right .container .up {
+  text-align: center;
+}
+body .contactPage .containerForm .mainRow .right .container .up img {
+  width: 100%;
+}
+body .contactPage .containerForm .mainRow .right .container .down {
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+body .contactPage .containerForm .mainRow .right .container .down .row {
+  margin-top: 20px;
+  background-color: white;
+}
+body .contactPage .containerForm .mainRow .right .container .down .row h3 i {
+  color: #00C2FF;
+}
+body .blogHero {
+  padding-top: 100px !important;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ECFAFF;
+}
+body .blogHero .carousel {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 30px;
+}
+body .blogHero .carousel .carousel-inner .carousel-item .slide .container .row .left .updatedSectionMainHeading {
+  text-align: left !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 700;
+  color: #00C2FF;
+}
+body .blogHero .carousel .carousel-inner .carousel-item .slide .container .row .left h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+body .blogHero .carousel .carousel-inner .carousel-item .slide .container .row .left .highText {
+  color: #00C2FF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+}
+body .blogHero .carousel .carousel-inner .carousel-item .slide .container .row .left p {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: larger !important;
+}
+body .blogHero .carousel .carousel-inner .carousel-item .slide .container .row .left button {
+  background-color: #00C2FF;
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-weight: 600;
+  font-size: x-large;
+  margin-top: 20px;
+  color: white;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+}
+body .blogHero .carousel .carousel-inner .carousel-item .slide .container .row .left button:hover {
+  background-color: white;
+  border: 2px solid #00C2FF;
+  color: #00C2FF;
+}
+body .blogHero .carousel .carousel-inner .carousel-item .slide .container .row .right {
+  text-align: center;
+}
+body .blogHero .carousel .carousel-inner .carousel-item .slide .container .row .right img {
+  width: 80% !important;
+}
+body .blogPage .blogPosts {
+  padding: 5%;
+  padding: 50px 70px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+}
+body .blogPage .blogPosts h2 {
+  color: #00C2FF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+body .blogPage .blogPosts .posts {
+  margin-top: 100px;
+}
+body .blogPage .blogPosts .posts .container-fluid .row .singlePost {
+  padding: 5px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+body .blogPage .blogPosts .posts .container-fluid .row .singlePost .postHeader img {
+  width: 100%;
+}
+body .blogPage .blogPosts .posts .container-fluid .row .singlePost .postBody {
+  padding: 10px 10px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+body .blogPage .blogPosts .posts .container-fluid .row .singlePost .postBody h4 {
+  font-weight: 700;
+}
+body .blogPage .blogPosts .posts .container-fluid .row .singlePost .postBody p {
+  font-size: medium;
+}
+body .blogPage .blogPosts .posts .container-fluid .row .singlePost .postAuthor {
+  padding: 5px 20px;
+}
+body .blogPage .blogPosts .posts .container-fluid .row .singlePost .postAuthor .left img {
+  width: 100%;
+}
+body .blogPage .blogPosts .posts .container-fluid .row .singlePost .postAuthor .right {
+  text-align: left;
+}
+body .blogPage .blogPosts .posts .container-fluid .row .singlePost .postAuthor .right p {
+  font-size: medium;
+  margin-bottom: 0 !important;
+}
+body .blogPage .blogPosts .nextBut {
+  background-color: #c7efff;
+  padding: 10px 50px;
+  border: 0;
+  color: #00B8FF;
+  margin-top: 50px;
+  transition: background-color 0.5s ease-out;
+}
+body .blogPage .blogPosts .nextBut:hover {
+  background-color: #00B8FF;
+  color: #c7efff;
+}
+body .singlePost {
+  padding: 5px 10px;
+  margin-bottom: 50px;
+}
+body .singlePost:hover {
+  cursor: pointer;
+}
+body .singlePost:hover .postHeader img {
+  filter: contrast(1.2);
+}
+body .singlePost:hover .postBody a:hover {
+  color: #00C2FF;
+}
+body .singlePost .postHeader img {
+  width: 100%;
+}
+body .singlePost .postBody {
+  padding: 10px 15px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+body .singlePost .postBody a {
+  text-decoration: none;
+  color: black;
+}
+body .singlePost .postBody a h4 {
+  font-weight: 700;
+}
+body .singlePost .postBody a:hover {
+  color: #00C2FF;
+}
+body .singlePost .postBody p {
+  font-size: medium;
+}
+body .singlePost .postAuthor {
+  padding: 5px 20px;
+}
+body .singlePost .postAuthor .left img {
+  width: 100%;
+}
+body .singlePost .postAuthor .right {
+  text-align: left;
+}
+body .singlePost .postAuthor .right p {
+  font-size: medium;
+  margin-bottom: 0 !important;
+}
+body .singleBlogPage {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+body .singleBlogPage .container .titleRow {
+  width: 80%;
+  margin: 0 auto;
+}
+body .singleBlogPage .container .authorRow {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+body .singleBlogPage .container .authorRow span {
+  font-weight: 400 !important;
+}
+body .singleBlogPage .container .imgRow {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+body .singleBlogPage .container .imgRow img {
+  width: 100%;
+}
+body .singleBlogPage .container .contentRow {
+  width: 80%;
+  margin: 0 auto;
+}
+body .singleBlogPage .container .contentRow p {
+  font-weight: 300;
+  margin-top: 30px;
+  font-size: 18px;
+}
+body .singleBlogPage .container .contentRow hr {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+body .singleBlogPage .container .writtenRow {
+  width: 80%;
+  margin: 0 auto;
+}
+body .singleBlogPage .container .writtenRow img {
+  height: 25px;
+}
+body .singleBlogPage .container .blogsRow {
+  margin-top: 100px;
+}
+body .singleBlogPage .container .blogsRow .blogs {
+  text-align: center;
+}
+body .singleBlogPage .container .blogsRow .blogs h2 {
+  color: #00C2FF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+body .singleBlogPage .container .blogsRow .blogs .posts {
+  margin-top: 100px;
+  text-align: left !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .navigation .navbar .container-fluid {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .hero {
+    padding-top: 140px !important;
+  }
+  .hero .carousel {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .services {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .testimonials {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .blogPage .blogPosts {
+    padding: 5%;
+    padding: 50px 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .hot .h1Num {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 40px;
+  }
+  .hot .stats .tick {
+    display: none;
+  }
+  .achievements {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .work {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .contact {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .contactEmail {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .contactEmail .container .row .right .emailInput input {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    padding: 5px 10px !important;
+  }
+  .contactEmail .container .row .right .emailInput button {
+    margin-left: 20px !important;
+    background-color: #00C2FF;
+    padding: 5px 20px !important;
+  }
+  .footer {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .serviceSection {
+    padding: 50px 70px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .navigation .navbar .container-fluid {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .navigation .navbar .navbar-collapse {
+    background-color: #D0EFFB;
+    margin-top: 25px;
+    border: 1px solid #00C2FF;
+    padding: 10px;
+    text-align: center;
+    z-index: 0;
+  }
+  .blogPage .blogPosts {
+    padding: 5%;
+    padding: 50px 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .blogPage .blogPosts .posts {
+    margin-top: 100px;
+  }
+  .blogPage .blogPosts .posts .container-fluid .row .singlePost {
+    padding: 5px 10px !important;
+  }
+  .hero {
+    padding-top: 140px !important;
+  }
+  .hero .carousel {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .hero .heroCompanies {
+    font-size: xx-large;
+  }
+  .services {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .testimonials {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .testimonials .sectionMainHeading {
+    font-family: Futura Heavy Font;
+    font-size: 3rem !important;
+  }
+  .hot {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .achievements {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .achievements .sectionMainHeading {
+    font-family: Futura Heavy Font;
+    font-size: 3rem !important;
+    font-weight: 800;
+  }
+  .achievements .leftMain {
+    padding: 10px !important;
+    padding-left: 0;
+  }
+  .achievements .leftMain img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .work {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .work .sectionMainHeading {
+    font-family: Futura Heavy Font;
+    font-size: 3rem !important;
+  }
+  .contact {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .contactEmail {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .contactEmail .container .row .right .emailInput input {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    padding: 5px 5px !important;
+    width: 60% !important;
+  }
+  .contactEmail .container .row .right .emailInput button {
+    margin-left: 10px !important;
+    background-color: #00C2FF;
+    padding: 5px 20px !important;
+    width: 40% !important;
+  }
+  .footer {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .designProcess .headings {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding: 5px !important;
+  }
+  .designProcess .processSteps .container-fluid {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding: 5px !important;
+  }
+  .designProcess .stepsCards {
+    padding-bottom: 50px;
+  }
+  .serviceSection {
+    padding: 50px 70px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .ourServices {
+    padding-top: 80px;
+  }
+  .ourServices .banner {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .serviceSection .sectionMainHeading {
+    font-family: Futura Heavy Font;
+    font-size: 3rem !important;
+  }
+  .singleService .row {
+    border-top: 2px solid rgba(0, 0, 0, 0.6);
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .singleService .row .mid {
+    text-align: center;
+  }
+  .singleService .row .mid img {
+    height: 200px;
+    visibility: visible !important;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .singleService .row .right {
+    text-align: right !important;
+  }
+  .singleService .row .right h1 {
+    text-align: center !important;
+    width: 100%;
+  }
+  .team .container-fluid {
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+  .team .container-fluid .sectionMainHeading {
+    text-align: center;
+  }
+  .team .container-fluid .in {
+    text-align: center;
+    position: relative;
+  }
+  .team .container-fluid .in .backShape {
+    position: absolute;
+    background-color: #00C2FF;
+    height: 100px;
+    width: 100%;
+    z-index: 0;
+  }
+  .team .container-fluid .in .members {
+    padding-top: 80px;
+    background-color: white;
+    text-align: center !important;
+  }
+  .team .container-fluid .in .members .singleMember {
+    text-align: center !important;
+  }
+  .team .container-fluid .in .members h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center !important;
+  }
+  .team .container-fluid .in .members h5 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center !important;
+  }
+  .team .container-fluid .in .members p {
+    text-align: center !important;
+    margin-bottom: 50px;
+  }
+  .team .container-fluid .in .members img {
+    height: 100%;
+    margin-bottom: 30px;
+  }
+  .workPage .banner {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .workPage .workMain {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .about {
+    padding-top: 40px;
+  }
+  .about .banner {
+    padding: 50px 70px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .aboutMain {
+    padding: 50px 70px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .aboutMain h5 {
+    font-weight: 700;
+  }
+  .aboutMain .sectionMainHeading {
+    font-family: Futura Heavy Font;
+    font-size: 3rem !important;
+  }
+  .feedback {
+    padding: 60px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .contactPage .banner {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .contactPage .contactMain {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .ourPortfolio .ourHeading {
+    text-align: center;
+    position: static !important;
+    width: 100% !important;
+  }
+  .ourPortfolio .ourHeading .ourRight {
+    width: 100% !important;
+    text-align: center;
+    position: static !important;
+    right: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .ourPortfolioPage {
+    padding-bottom: 50px;
+    padding-top: 0 !important;
+    background-color: white;
+  }
+  .ourPortfolioPage .portfolioHero {
+    padding-top: 20px !important;
+  }
+  .ourPortfolioPage .portfolioHero .updatedSectionMainHeading {
+    text-align: left;
+  }
+  .singleBlogPage .container .titleRow {
+    width: 90% !important;
+    text-align: left !important;
+  }
+  .singleBlogPage .container .authorRow {
+    width: 90% !important;
+    text-align: left !important;
+  }
+  .singleBlogPage .container .authorRow .dashh {
+    display: none !important;
+  }
+  .singleBlogPage .container .imgRow {
+    width: 90% !important;
+  }
+  .singleBlogPage .container .contentRow {
+    width: 90% !important;
+  }
+  .singleBlogPage .container .writtenRow {
+    width: 90% !important;
+  }
+  .hero {
+    padding-top: 80px;
+  }
+  .hero .carousel {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 80px;
+  }
+  .hero .carousel .carousel-inner .carousel-item .slide .container-fluid .row .right {
+    text-align: left !important;
+    margin-top: 20px !important;
+  }
+  .contact .container-fluid .banner .right img {
+    display: none;
+  }
+  .contactEmail .container-fluid .row {
+    text-align: center;
+  }
+  .contactEmail .container-fluid .row .left img {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .contactEmail .container-fluid .row .right .emailInput input {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    padding: 5px 5px !important;
+  }
+  .contactEmail .container-fluid .row .right .emailInput button {
+    margin-left: 10px !important;
+    background-color: #00C2FF;
+    padding: 5px 20px !important;
+  }
+  .serviceSection {
+    padding: 50px 70px;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .blogPage .blogPosts {
+    padding: 5%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .blogPage .blogPosts .posts {
+    margin-top: 100px;
+  }
+  .blogPage .blogPosts .posts .container-fluid .row .singlePost {
+    padding: 5px 10px !important;
+  }
+  .serviceSection .sectionMainHeading {
+    padding: 50px 70px;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    font-family: Futura Heavy Font;
+    font-size: 2rem !important;
+  }
+  .singleService .row .mid img {
+    visibility: visible;
+  }
+  .testimonialsUpdated {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .testimonialsUpdated .updatedSectionMainHeading {
+    color: #00C2FF;
+  }
+  .testimonialsUpdated .whatHeading {
+    position: relative;
+    text-align: center;
+  }
+  .testimonialsUpdated .whatHeading h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: xxx-large;
+  }
+  .testimonialsUpdated .whatHeading .whatRight {
+    position: static !important;
+    text-align: center !important;
+    display: none;
+  }
+  .testimonialsUpdated .whatHeading .whatRight .sliderControlBut {
+    border: 0;
+    color: #00C2FF;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: xx-large;
+    transition: background-color 0.5s ease-out;
+  }
+  .testimonialsUpdated .whatHeading .whatRightPhone {
+    display: block !important;
+  }
+  .testimonialsUpdated .whatHeading .whatRightPhone .sliderControlBut {
+    border: 0;
+    color: #00C2FF;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: xx-large;
+    transition: background-color 0.5s ease-out;
+  }
+  .testimonialsUpdated .contactPage .containerForm .mainRow {
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+  }
+  .testimonialsUpdated .reviews .singleCard .reviewCard {
+    background-color: #E4F8FF;
+    padding: 20px 40px;
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0 !important;
+  }
+  .testimonialsUpdated .reviews .singleCard .reviewCard .rating .ratingNo {
+    font-size: larger;
+    margin-right: 10px;
+  }
+  .testimonialsUpdated .reviews .singleCard .reviewCard .rating .filled {
+    color: #FFBB55;
+  }
+  .testimonialsUpdated .reviews .singleCard .reviewCard .comments p {
+    font-size: larger;
+    color: #887E7E;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .testimonialsUpdated .reviews .singleCard .reviewCard .client img {
+    width: 100%;
+    border-radius: 50%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .hero {
+    padding-top: 80px;
+  }
+  .hero .carousel {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 80px;
+  }
+  .hero .carousel .carousel-inner .carousel-item .slide .container .row .right img {
+    display: none !important;
+  }
+  .becomeBanner {
+    background-color: #00C2FF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center !important;
+  }
+  .becomeBanner h1 {
+    font-size: 50px !important;
+    margin-bottom: 50px;
+  }
+  .becomeBanner h2 {
+    font-size: 40px !important;
+  }
+  .becomeBanner h4 {
+    font-size: 20px !important;
+  }
+  .testimonialsUpdated {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .testimonialsUpdated .updatedSectionMainHeading {
+    color: #00C2FF;
+  }
+  .testimonialsUpdated .whatHeading {
+    position: relative;
+    text-align: center;
+  }
+  .testimonialsUpdated .whatHeading h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: xxx-large;
+  }
+  .testimonialsUpdated .whatHeading .whatRight {
+    position: static !important;
+    text-align: center !important;
+    display: none;
+  }
+  .testimonialsUpdated .whatHeading .whatRight .sliderControlBut {
+    border: 0;
+    color: #00C2FF;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: xx-large;
+    transition: background-color 0.5s ease-out;
+  }
+  .testimonialsUpdated .whatHeading .whatRightPhone {
+    display: block !important;
+  }
+  .testimonialsUpdated .whatHeading .whatRightPhone .sliderControlBut {
+    border: 0;
+    color: #00C2FF;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: xx-large;
+    transition: background-color 0.5s ease-out;
+  }
+  .testimonialsUpdated .reviews .singleCard .reviewCard {
+    background-color: #E4F8FF;
+    padding: 20px 40px;
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0 !important;
+  }
+  .testimonialsUpdated .reviews .singleCard .reviewCard .rating .ratingNo {
+    font-size: larger;
+    margin-right: 10px;
+  }
+  .testimonialsUpdated .reviews .singleCard .reviewCard .rating .filled {
+    color: #FFBB55;
+  }
+  .testimonialsUpdated .reviews .singleCard .reviewCard .comments p {
+    font-size: larger;
+    color: #887E7E;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .testimonialsUpdated .reviews .singleCard .reviewCard .client img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  .contactEmail {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .contactEmail .container .row .left {
+    text-align: center !important;
+  }
+  .contactEmail .container .row .left img {
+    max-width: 60%;
+  }
+  .contactEmail .container .row .right h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+  }
+  .contactEmail .container .row .right h2 {
+    font-size: xx-large;
+    margin-top: 30px;
+  }
+  .contactEmail .container .row .right h4 {
+    margin-top: 25px;
+  }
+  .contactEmail .container .row .right .emailInput {
+    padding: 5px;
+    border: 1px solid rgba(61, 61, 61, 0.4);
+    border-radius: 30px !important;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .contactEmail .container .row .right .emailInput input {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    padding: 5px 15px !important;
+  }
+  .contactEmail .container .row .right .emailInput button {
+    background-color: #00C2FF;
+    padding: 5px 30px !important;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    font-size: larger;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+  }
+  .contactEmail .container .row .right .emailInput button:hover {
+    background-color: #00C2FF;
+    color: white;
+  }
+  .footer .bottom .left {
+    text-align: center !important;
+  }
+  .footer .bottom .right {
+    text-align: center !important;
+  }
+  .footer .bottom .right ul {
+    list-style: none;
+  }
+  .footer .bottom .right ul li {
+    display: block !important;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .footer .bottom .right ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+  }
+}
+@media only screen and (max-width: 366px) {
+  .contactEmail {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .contactEmail .container .row .left {
+    text-align: center !important;
+  }
+  .contactEmail .container .row .left img {
+    max-width: 60%;
+  }
+  .contactEmail .container .row .right h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+  }
+  .contactEmail .container .row .right h2 {
+    font-size: xx-large;
+    margin-top: 30px;
+  }
+  .contactEmail .container .row .right h4 {
+    margin-top: 25px;
+  }
+  .contactEmail .container .row .right .emailInput {
+    padding: 5px;
+    border: 1px solid rgba(61, 61, 61, 0.4);
+    border-radius: 30px !important;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .contactEmail .container .row .right .emailInput input {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    padding: 5px 5px !important;
+  }
+  .contactEmail .container .row .right .emailInput button {
+    background-color: #00C2FF;
+    padding: 5px 30px !important;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    font-size: larger;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+  }
+  .contactEmail .container .row .right .emailInput button:hover {
+    background-color: #00C2FF;
+    color: white;
+  }
+  .footer .bottom .left {
+    text-align: center !important;
+  }
+  .footer .bottom .right {
+    text-align: center !important;
+  }
+  .footer .bottom .right ul {
+    list-style: none;
+  }
+  .footer .bottom .right ul li {
+    display: block !important;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .footer .bottom .right ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+  }
+}/*# sourceMappingURL=index.css.map */
