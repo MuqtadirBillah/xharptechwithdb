@@ -14,7 +14,7 @@ function BecomeBanner(){
                         <div className="row">
                             <div className="col-lg-4 col-md-4 col-sm-4 col-4">
                                 <h2>
-                                    <CountUp end={72} redraw={true}>
+                                    <CountUp end={35} redraw={true}>
                                         {({ countUpRef, start }) => (
                                             <VisibilitySensor onChange={start} delayedCall>
                                                 <span ref={countUpRef} />
@@ -27,25 +27,25 @@ function BecomeBanner(){
                             <div className="col-lg-4 col-md-4 col-sm-4 col-4">
                                 <h2>
                                     
-                                    <CountUp end={20} redraw={true}>
-                                            {({ countUpRef, start }) => (
-                                                <VisibilitySensor onChange={start} delayedCall>
-                                                    <span ref={countUpRef} />
-                                                </VisibilitySensor>
-                                            )}
-                                    </CountUp>+
-                                </h2>
-                                <h4>Team Members</h4>
-                            </div>
-                            <div className="col-lg-4 col-md-4 col-sm-4 col-4">
-                                <h2>
-                                    <CountUp end={10} redraw={true}>
+                                    <CountUp end={15} redraw={true}>
                                             {({ countUpRef, start }) => (
                                                 <VisibilitySensor onChange={start} delayedCall>
                                                     <span ref={countUpRef} />
                                                 </VisibilitySensor>
                                             )}
                                     </CountUp>
+                                </h2>
+                                <h4>Team Members</h4>
+                            </div>
+                            <div className="col-lg-4 col-md-4 col-sm-4 col-4">
+                                <h2>
+                                    <CountUp end={5} redraw={true}>
+                                            {({ countUpRef, start }) => (
+                                                <VisibilitySensor onChange={start} delayedCall>
+                                                    <span ref={countUpRef} />
+                                                </VisibilitySensor>
+                                            )}
+                                    </CountUp>+
                                 </h2>
                                 <h4>Years of Experience</h4>
                             </div>

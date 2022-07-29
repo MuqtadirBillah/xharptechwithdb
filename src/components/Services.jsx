@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Services(){
 
@@ -21,7 +22,7 @@ function Services(){
                                 <div className="cardBody">
                                     <h4>UI/UX</h4>
                                     <h5>UI/UX design </h5>
-                                    <p><a href="/services#service-1">View Details<i class="fas fa-angle-right"></i></a></p>
+                                    <p><Link to="/services/#uiux"><a>View Details<i class="fas fa-angle-right"></i></a></Link></p>
                                 </div>
                             </div>
                         </div>
@@ -33,7 +34,7 @@ function Services(){
                                 <div className="cardBody">
                                     <h4>MOBILE</h4>
                                     <h5>Design & development</h5>
-                                    <p><a href="/services#service-2">View Details<i class="fas fa-angle-right"></i></a></p>
+                                    <p><a href="/services/#mobile">View Details<i class="fas fa-angle-right"></i></a></p>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +46,7 @@ function Services(){
                                 <div className="cardBody">
                                     <h4>WEB</h4>
                                     <h5>Design & development</h5>
-                                    <p><a href="/services#service-4">View Details<i class="fas fa-angle-right"></i></a></p>
+                                    <p><a href="/services/#web">View Details<i class="fas fa-angle-right"></i></a></p>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +58,7 @@ function Services(){
                                 <div className="cardBody">
                                     <h4>Ecommerce & others</h4>
                                     <h5>Design & development</h5>
-                                    <p><a href="/services#service-6">View Details<i class="fas fa-angle-right"></i></a></p>
+                                    <p><a href="/services/#ecommerce">View Details<i class="fas fa-angle-right"></i></a></p>
                                 </div>
                             </div>
                         </div>

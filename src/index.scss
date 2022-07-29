@@ -76,6 +76,16 @@ body{
         @include sectionMainHeading();
         font-weight: 800;
     }
+    .loader{
+        height: 100vh;
+        position: absolute;
+        background: rgba(255, 255, 255, 0.8) !important;
+        z-index: 2000;
+        width: 100%;
+        img{
+            margin: 0 auto;
+        }
+    }
     .navigation{
         position: fixed;
         // display: none;

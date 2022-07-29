@@ -1,14 +1,21 @@
-import React, {useEffect} from 'react';
+import React, {useEffect,useState} from 'react';
 import {Helmet} from "react-helmet";
 import Navigation from "./Navigation";
 import ServicesHero from "./ServicesHero";
 import ContactEmail from "./ContactEmail";
 import Footer from "./Footer";
+import Loader from './Loader';
 
 function ServicesPageUpdated(){
+    var [loader, setLoader] = useState('block');
     
     useEffect(() => {
-        window.scrollTo(0, 0)
+        console.log(window.location.pathname);
+        console.log(window.location.pathname.length);
+        if(window.location.pathname==='/services' && window.location.pathname.length<10){
+            window.scrollTo(0, 0);
+            setLoader('none');
+        }
     }, [])
 
     var imageBackStyle = {
@@ -25,6 +32,7 @@ function ServicesPageUpdated(){
                 <meta name="keywords" content="web design, mobile app development, software development, user experience design, application development, custom web development, user friendly" />
                 <meta name="description" content="We are a full-service design and development agency. We offer everything from UI/UX and Web Development to E-Commerce and Mobile applications. Get A Quote Now" />
             </Helmet>
+            {(loader=='block') && <Loader display={loader} />}
             <Navigation path='/services' />
             <div className="servicesPageUpdated">
                 <ServicesHero />
@@ -35,10 +43,10 @@ function ServicesPageUpdated(){
                     <div className="services" id="service-1">
                         <div className="row">
                             <div className="col-lg-6 col-md-6 col-sm-12 serviceImg d-flex align-items-center" data-aos="flip-left" data-aos-delay="100" data-aos-duration="600" style={imageBackStyle}>
-                                <img src="/assets/images/service-webdesign.png" alt='web-design-image' />
+                                <img src="/assets/images/asset1.webp" alt='web-design-image' />
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12 serviceText d-flex align-items-center">
-                                <div>
+                                <div id='uiux'>
                                     <h2>1.	UI/UX DESIGN</h2>
                                     <h5>Our team of skilled individuals works on providing detailed and intricate User Experience Design. Our goal is to make sure that our product is not only user-friendly but also unique and brand new to the market.  
                                     </h5></div>
@@ -54,13 +62,13 @@ function ServicesPageUpdated(){
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12 serviceImg d-flex align-items-center" style={imageBackStyle} data-aos="flip-left" data-aos-delay="100" data-aos-duration="600" >
-                                <img src="/assets/images/service-appdesign.png" alt='web-design-image' />
+                                <img src="/assets/images/asset2.webp" alt='web-design-image' />
                             </div>
                         </div>
                         <hr />
-                        <div className="row" id="service-3">
-                            <div className="col-lg-6 col-md-6 col-sm-12 serviceImg d-flex align-items-center" style={imageBackStyle} data-aos="flip-left" data-aos-delay="100" data-aos-duration="600" >
-                                <img src="/assets/images/service-development.png" alt='web-design-image' />
+                        <div className="row">
+                            <div className="col-lg-6 col-md-6 col-sm-12 serviceImg d-flex align-items-center" style={imageBackStyle} data-aos="flip-left" data-aos-delay="100" data-aos-duration="600">
+                                <img src="/assets/images/asset3.webp" alt='web-design-image' id="web" />
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12 serviceText d-flex align-items-center">
                                 <div>
@@ -79,12 +87,12 @@ function ServicesPageUpdated(){
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12 serviceImg d-flex align-items-center" style={imageBackStyle} data-aos="flip-left" data-aos-delay="100" data-aos-duration="600" >
-                                <img src="/assets/images/service-branding.png" alt='web-design-image' />
+                                <img src="/assets/images/asset4.webp" alt='web-design-image' />
                             </div>
                         </div>
-                        <div className="row" id="service-5">
+                        <div className="row" id="mobile">
                             <div className="col-lg-6 col-md-6 col-sm-12 serviceImg d-flex align-items-center" style={imageBackStyle} data-aos="flip-left" data-aos-delay="100" data-aos-duration="600" >
-                                <img src="/assets/images/service-development.png" alt='web-design-image' />
+                                <img src="/assets/images/asset5.webp" alt='web-design-image' />
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12 serviceText d-flex align-items-center">
                                 <div>
@@ -94,7 +102,7 @@ function ServicesPageUpdated(){
                             </div>
                         </div>
                         <hr />
-                        <div className="row" id="service-6">
+                        <div className="row" id="ecommerce">
                             <div className="col-lg-6 col-md-6 col-sm-12 serviceText d-flex align-items-center">
                                 <div>
                                     <h2>6.	E-COMMERCE </h2>
@@ -103,13 +111,13 @@ function ServicesPageUpdated(){
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12 serviceImg d-flex align-items-center" style={imageBackStyle} data-aos="flip-left" data-aos-delay="100" data-aos-duration="600" >
-                                <img src="/assets/images/service-branding.png" alt='web-design-image' />
+                                <img src="/assets/images/asset6.webp" alt='web-design-image' />
                             </div>
                         </div>
                         <hr />
                         <div className="row" id="service-7">
                             <div className="col-lg-6 col-md-6 col-sm-12 serviceImg d-flex align-items-center" style={imageBackStyle} data-aos="flip-left" data-aos-delay="100" data-aos-duration="600" >
-                                <img src="/assets/images/service-development.png" alt='web-design-image' />
+                                <img src="/assets/images/asset7.webp" alt='web-design-image' />
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12 serviceText d-flex align-items-center">
                                 <div>

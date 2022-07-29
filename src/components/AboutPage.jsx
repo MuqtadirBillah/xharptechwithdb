@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Helmet} from "react-helmet";
 import Navigation from "./Navigation";
 import AboutHero from "./AboutHero";
@@ -7,11 +7,14 @@ import Team from './Team'
 import TestimonialsUpdated from "./TestimonialsUpdated";
 import ContactEmail from "./ContactEmail";
 import Footer from "./Footer";
+import Loader from './Loader';
 
 function AboutPage(){
+    var [loader, setLoader] = useState('block');
     
     useEffect(() => {
-        window.scrollTo(0, 0)
+        window.scrollTo(0, 0);
+        setLoader('none')
     }, [])
     
     return(
@@ -22,6 +25,7 @@ function AboutPage(){
                 <meta name="keywords" content="web design and development services, mobile development services, e-commerce development, top-quality results, industry experience" />
                 <meta name="description" content="Our team specializes in providing top-quality web design and development, mobile development and e-commerce development services. We have a team of individuals who have exceptional skills through profound industry experience which result in high-quality results delivery." />
             </Helmet>
+            {(loader=='block') && <Loader display={loader} />}
             <Navigation path='/about' />
             <div className="aboutPage">
                 <AboutHero />

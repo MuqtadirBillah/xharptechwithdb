@@ -1,13 +1,16 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import { Helmet } from "react-helmet";
 import Navigation from "./Navigation";
 import ContactEmail from "./ContactEmail";
 import Footer from "./Footer";
+import Loader from './Loader';
 
 function OurPortfolioPage() {
+  var [loader, setLoader] = useState('block');
     
   useEffect(() => {
-      window.scrollTo(0, 0)
+      window.scrollTo(0, 0);
+      setLoader('none')
   }, [])
   
   return (
@@ -24,6 +27,7 @@ function OurPortfolioPage() {
           content="Our portfolio speaks for itself, we have created top-notch digital & stunning digital experiences for our clients. Visit our website to see how we can help you with your ui/ux needs."
         />
       </Helmet>
+            {(loader=='block') && <Loader display={loader} />}
       <Navigation  path='/our-portfolio' />
       <div className="ourPortfolio ourPortfolioPage">
         <div className="hero portfolioHero">

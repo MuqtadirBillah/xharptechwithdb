@@ -8,11 +8,14 @@ import ContactEmail from "./ContactEmail";
 import Footer from "./Footer";
 import ContactHero from "./ContactHero";
 import {Helmet} from "react-helmet";
+import Loader from './Loader';
 
 function ContactPage(){
+    var [loader, setLoader] = useState('block');
     
     useEffect(() => {
-        window.scrollTo(0, 0)
+        window.scrollTo(0, 0);
+        setLoader('none');
     }, [])
     
     
@@ -75,6 +78,7 @@ function ContactPage(){
                 <meta name="description" content="Our team specializes in providing top-quality web design and development, mobile development and e-commerce development services. We have a team of individuals who have exceptional skills through profound industry experience which result in high-quality results delivery." />
             </Helmet>
             <Navigation />
+            {(loader=='block') && <Loader display={loader} />}
             <div className="contactPage">
                 <ContactHero />
                 <div className="container containerForm">
