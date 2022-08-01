@@ -33,10 +33,10 @@ function Footer(){
                         <img src="/assets/images/logo.png" alt="" />
                         <p>Follow us</p>
                         <h5>
-                            <a href='https://web.facebook.com/xharptech.official/' ><span className="facebook"><i class="fab fa-facebook-f"></i></span></a>
-                            <a href='https://twitter.com/XharpTech' ><span className="twitter"><i class="fab fa-twitter"></i></span></a>
-                            <a href='https://www.instagram.com/xharptech_official/' ><span className="instagram"><i class="fab fa-instagram"></i></span></a>
-                            <a href='https://www.linkedin.com/company/xharptech' ><span className="linkedin"><i class="fab fa-linkedin-in"></i></span></a>
+                            <a target="_blank" href='https://web.facebook.com/xharptech.official/' ><span className="facebook"><i class="fab fa-facebook-f"></i></span></a>
+                            <a target="_blank" href='https://twitter.com/XharpTech' ><span className="twitter"><i class="fab fa-twitter"></i></span></a>
+                            <a target="_blank" href='https://www.instagram.com/xharptech_official/' ><span className="instagram"><i class="fab fa-instagram"></i></span></a>
+                            <a target="_blank" href='https://www.linkedin.com/company/xharptech' ><span className="linkedin"><i class="fab fa-linkedin-in"></i></span></a>
                         </h5>
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-12 mid" data-aos="fade-in" data-aos-delay="100" data-aos-duration="600">

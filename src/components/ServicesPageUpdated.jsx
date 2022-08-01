@@ -14,8 +14,8 @@ function ServicesPageUpdated(){
         console.log(window.location.pathname.length);
         if(window.location.pathname==='/services' && window.location.pathname.length<10){
             window.scrollTo(0, 0);
-            setLoader('none');
         }
+        setLoader('none');
     }, [])
 
     var imageBackStyle = {
