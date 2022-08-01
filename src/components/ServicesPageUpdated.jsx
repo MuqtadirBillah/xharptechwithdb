@@ -15,7 +15,6 @@ function ServicesPageUpdated(){
         if(window.location.pathname==='/services' && window.location.pathname.length<10){
             window.scrollTo(0, 0);
         }
-        setLoader('none');
     }, [])
 
     var imageBackStyle = {
@@ -32,7 +31,6 @@ function ServicesPageUpdated(){
                 <meta name="keywords" content="web design, mobile app development, software development, user experience design, application development, custom web development, user friendly" />
                 <meta name="description" content="We are a full-service design and development agency. We offer everything from UI/UX and Web Development to E-Commerce and Mobile applications. Get A Quote Now" />
             </Helmet>
-            {(loader=='block') && <Loader display={loader} />}
             <Navigation path='/services' />
             <div className="servicesPageUpdated">
                 <ServicesHero />

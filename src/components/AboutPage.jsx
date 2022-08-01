@@ -25,7 +25,6 @@ function AboutPage(){
                 <meta name="keywords" content="web design and development services, mobile development services, e-commerce development, top-quality results, industry experience" />
                 <meta name="description" content="Our team specializes in providing top-quality web design and development, mobile development and e-commerce development services. We have a team of individuals who have exceptional skills through profound industry experience which result in high-quality results delivery." />
             </Helmet>
-            {(loader=='block') && <Loader display={loader} />}
             <Navigation path='/about' />
             <div className="aboutPage">
                 <AboutHero />

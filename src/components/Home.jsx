@@ -38,7 +38,6 @@ function Home(){
                 <meta name="description" content="We are an award-winning design and development agency with a global portfolio. Our team specializes in UI/UX design and development, eCommerce, and many more. Let us help you create an amazing website or application." />            
                 <meta property="og:image" itemprop="image" content="https://xharptech.com/assets/images/logo.png" />
             </Helmet>
-            {(loader=='block') && <Loader display={loader} />}
             <div className="home">
                 <Hero />
                 <Services />

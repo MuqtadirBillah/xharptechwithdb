@@ -78,7 +78,6 @@ function ContactPage(){
                 <meta name="description" content="Our team specializes in providing top-quality web design and development, mobile development and e-commerce development services. We have a team of individuals who have exceptional skills through profound industry experience which result in high-quality results delivery." />
             </Helmet>
             <Navigation />
-            {(loader=='block') && <Loader display={loader} />}
             <div className="contactPage">
                 <ContactHero />
                 <div className="container containerForm">
