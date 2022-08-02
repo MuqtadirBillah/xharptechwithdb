@@ -39,7 +39,7 @@ function Achievements(){
                                             <img src="/assets/images/ach3.png" alt="" />
                                         </div>
                                         <div className="col-lg-10 col-md-10 col-8 right">
-                                            <h5>10+ Years Of Experience</h5>
+                                            <h5>5+ Years Of Experience</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -49,7 +49,7 @@ function Achievements(){
                                             <img src="/assets/images/ach4.png" alt="" />
                                         </div>
                                         <div className="col-lg-10 col-md-10 col-8 right">
-                                            <h5>Successfully Launched 70+ Projects</h5>
+                                            <h5>Successfully Launched 35+ Projects</h5>
                                         </div>
                                     </div>
                                 </div>
